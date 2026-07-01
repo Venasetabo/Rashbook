@@ -1,0 +1,20 @@
+{
+    "sidebar": {
+        "forum":"Tous les forums",
+        "new":"nouvelle publication",
+        "podcast":"Podcasts",
+        "following":"Abonnements",
+        "thread":"Nouveaux sujets",
+        "about":"A propos de nous"
+    },
+  
+    "topbar": {
+
+    },
+    "rightbar":{
+
+    },
+    "Following":{
+
+    }
+}
