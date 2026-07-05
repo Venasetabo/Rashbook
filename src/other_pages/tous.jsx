@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Contact from "../selectionApp/contact";
-import Fetch from "../selectionApp/fetch";
-import LandingPage from "../selectionApp/landingPage";
-import Navbar from "../selectionApp/navbar";
-import Footer from "../selectionApp/footer";
-import Searchbox from "../selectionApp/searchBox";
+import Contact from "../SelectionApp/contact";
+import Fetch from "../SelectionApp/fetch";
+import LandingPage from "../SelectionApp/landingPage";
+import Navbar from "../SelectionApp/navbar";
+import Footer from "../SelectionApp/footer";
+import Searchbox from "../SelectionApp/searchBox";
 
 export default function Tous() {
   return (

@@ -1,5 +1,5 @@
-import LandingPage from "../selectionApp/landingPage";
-import Searchbox from "../selectionApp/searchBox";
+import LandingPage from "../SelectionApp/landingPage";
+import Searchbox from "../SelectionApp/searchBox";
 
 export default function Ancients(){
     return(

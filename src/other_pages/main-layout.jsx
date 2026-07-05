@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
-import Contact from "../selectionApp/contact";
-import Fetch from "../selectionApp/fetch";
-import LandingPage from "../selectionApp/landingPage";
-import Navbar from "../selectionApp/navbar";
-import Footer from "../selectionApp/footer";
+import Contact from "../SelectionApp/contact";
+import Fetch from "../SelectionApp/fetch";
+import LandingPage from "../SelectionApp/landingPage";
+import Navbar from "../SelectionApp/navbar";
+import Footer from "../SelectionApp/footer";
 
 export default function MainLayout(){
 
