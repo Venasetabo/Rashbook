@@ -14,7 +14,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <img
               className="w-10 h-10 sm:w-12 sm:h-12 rounded-full  shadow-lg"
-              src="./public/rash.jpg"
+              src="/rash.jpg"
               alt="logo de paweb-c"
             />
             <div>
@@ -62,7 +62,7 @@ export default function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-slate-900 border-t border-slate-800">
+        <div className="md:hidden bg-slate-900 border-t border-slate-900">
           <div className="px-4 pb-4 pt-2 space-y-2">
             <a className="block rounded-2xl px-4 py-3 text-slate-200 hover:bg-slate-800 transition" href="#tech">
               Tech

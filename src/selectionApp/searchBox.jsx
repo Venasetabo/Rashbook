@@ -2,7 +2,7 @@ import { Search } from "lucide-react"
 import { useState } from "react"
 
 export default function Searchbox({ placeholder }) {
-  const [query, setQuery] = useState("")
+      const [q,setQ] = useState("")
 
   return (
     <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,9 +14,9 @@ export default function Searchbox({ placeholder }) {
             </label>
             <input
               id="search-input"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
               type="text"
+              value={q}
+              onChange={(event)=> setQ(event.target.value)}
               placeholder={`Recherchez des ${placeholder} publiés...`}
               className="w-full h-12 sm:h-14 rounded-2xl border border-slate-300 bg-slate-50 px-4 text-sm sm:text-base text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 transition"
             />
@@ -32,7 +32,7 @@ export default function Searchbox({ placeholder }) {
         </div>
 
         <div className="mt-4 text-sm sm:text-base text-slate-600">
-          Résultats pour : <span className="font-semibold text-slate-900">{query || "..."}</span>
+          Résultats pour : <span className="font-semibold text-slate-900">{q}</span>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ export default function Tous() {
     <>
       <Searchbox placeholder={"tous"} />
       <LandingPage
-        img={"/public/profil1.jpg"}
+        img={"/profil1.jpg"}
         title={
           "I'M WEB DESIGNER, I DO CREATE LAYERS IN DIFFERENT WAY  BY USING MODERN TOOLS SUCH AS ADOBE PHOTOSHOP, CANVA, FIGMA AND OTHERS..."
         }
@@ -23,7 +23,7 @@ export default function Tous() {
       />
 
       <LandingPage
-        img={"/public/profil2.png"}
+        img={"/profil2.png"}
         title={
           "JE SUIS AMISSA 'YANGYA LA FEMME DE CHRISPIN MKANGYA MNYACI DEPUIS 2025 ON A DEJA UN ENFANT QUI EST APPELE TATAIANA, NOTRE BEBE QUE DIEU NOUS A BENIS ET NOUS A OFFERT UN CADEAU POUR NOTRE AMOUR"
         }
@@ -34,7 +34,7 @@ export default function Tous() {
         postedBy={"Amissa"}
       />
       <LandingPage
-        img={"/public/profil3.jpg"}
+        img={"/profil3.jpg"}
         title={
           "KEYSON MY NAME, I'M WEB DEVELOPPER WITH TEN YEARS OF EXPERIENCE AT PAWEB-C COMPANY, I WAS HIRED IN 2024 AT THIS COMPANY FOR TECHNOLOGY ACTIVITY WHERE I HAVE FOUND Rashmond Alfred and Chrispin Mk."
         }

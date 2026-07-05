@@ -1,3 +1,13 @@
+#mes fichiers ignorés
+TP1/
+selectionApp/
+API/ini
+src/components/
+data/
+hooks/
+locales/
+other_pages/
+
 # Logs
 logs
 *.log
