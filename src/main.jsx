@@ -9,6 +9,7 @@ import "./index.css";
 
 // import { UserProvider } from "./hooks/use-context.jsx";
 import RepRenDre from "./reprendre.jsx";
+import Posts from "./REPRENDRE/components/posts.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
